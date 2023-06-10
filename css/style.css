@@ -1,14 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600&display=swap");
-
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@500&display=swap');
 * {
   margin: 0 auto;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Poppins";
+  font-family: "Poppins", "sans-serif";
 }
 
 header {
-  background-color: rgba(255, 238, 213, 0.603);
+  /* background-color: rgba(255, 238, 213, 0.603); */
+  background-color: #FFF;
   backdrop-filter: blur(9px);
   display: flex;
   align-items: center;
@@ -31,7 +32,8 @@ header.hide {
   max-width: 60px;
 }
 
-#nav ul, a{
+#nav ul,
+a {
   list-style: none;
   text-decoration: none;
   color: #a8a8a8;
@@ -39,10 +41,12 @@ header.hide {
   font-weight: 300;
   display: flex;
   padding: 0px 6px;
+  transition: .2s ease-in;
 }
 
 #nav a:hover {
   color: #ab81f0;
+  transform: translateY(-4px);
 }
 
 .inicio {
@@ -69,20 +73,104 @@ header.hide {
   height: 40rem;
 }
 
-.inicio span, h3 {
-  font-size:5rem;
+.inicio span,
+h3 {
+  font-size: 5rem;
   color: #fff;
-  display: block;
+  font-family: "Rubik";
 }
+
 h3 {
   color: #e67e22;
+  display: inline-block;
+}
+
+.sobre {
+  display: flex;
+}
+
+.component-bg {
+  width: 40rem;
+}
+
+.sobre p {
+  margin: 3rem 3rem 0 3rem;
+  text-align: justify;
+}
+
+.container-fdb {
+  background-color: #ffffff;
+  max-width: 20rem;
+  height: 13rem;
+  border-radius: 7px;
+}
+
+.container-fdb span, p {
+  color: #4e4e4e;
+  display: block;
+  margin: 1rem;
+}
+
+.container-fdb p {
+  font-size: 14px;
+  font-weight: 300;
+  color: #a5a5a5;
+  margin-bottom: 2rem;
+}
+
+.feedback {
+  max-width: 432px;
+}
+
+.feedback-titulo h3, .feedback-titulo {
+  max-width: 44rem;
+  font-size: 3rem;
+  display: flex;
+  margin-bottom: 1rem;
+  font-family: "Rubik";
+}
+
+footer {
+  position: relative;
+  background: url(/images/footer_background02.jpg);
+  background-position: center;
+  background-size: center;
+  padding-top: 10rem;
+  padding-bottom: 2rem;
+}
+
+
+footer .top_wave {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 10rem;
+  width: 100%;
+}
+
+footer p {
+  color: #FFF;
+  width: 80rem;
+  margin-top: 2rem;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 5rem 0 3rem;
 }
 
 .container-icons {
   display: flex;
+  transition: .2s ease-in;
 }
 
 .icon-logo {
   max-width: 20px;
   margin-right: 4px;
+}
+
+.container-icons a:hover {
+  transform: translateY(-4px);
 }
