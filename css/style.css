@@ -49,7 +49,7 @@ a {
 
 .inicio {
   min-height: 150vh;
-  background: url(/images/background02.png) no-repeat;
+  background: url(images/background02.png) no-repeat;
   display: flex;
   align-items: center;
   justify-content: flex-end;
@@ -137,7 +137,7 @@ p {
 
 footer {
   position: relative;
-  background: url(/images/footer_background02.jpg);
+  background: url(images/footer_background02.jpg);
   background-position: center;
   background-size: center;
   padding-top: 10rem;
@@ -181,7 +181,7 @@ footer p {
 }
 
 .inicio-servico {
-  background: url(/images/header-background.jpg);
+  background: url(images/header-background.jpg);
   min-height: 0vh;
   height: 43vh;
 }
