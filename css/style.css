@@ -93,7 +93,7 @@ h3 {
 }
 
 .sobre p,
-.servicos p {
+.content-servicos {
   margin: 3rem 3rem 0 3rem;
   text-align: justify;
 }
@@ -180,25 +180,19 @@ footer p {
   transform: translateY(-4px);
 }
 
-
-
 .inicio-servico {
   background: url(/images/header-background.jpg);
   min-height: 0vh;
-  height: 53vh;
-}
-
-.servicos {
-  padding: 5rem 0 0 0;
+  height: 43vh;
 }
 
 .btn {
   position: absolute;
   left: 4rem;
-  top: 47rem;
+  top: 38rem;
   border-radius: 5rem;
   border-top-left-radius: 0;
-  border: 0.2rem solid #000000ba;
+  border: 0.2rem solid #e67e22;
   background-color: #e67e22;
   color: #ffffff;
   font-size: 1.8rem;
@@ -222,11 +216,25 @@ footer p {
   }
 }
 
-.container-servicos {
+.servicos {
+  margin: 2rem 0 0 0px;
+}
+
+.container-servicos,
+.container-produtos {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(21rem, 1fr));
   gap: 1.5rem;
   margin-top: 3rem;
+}
+
+.titulo-header span {
+  color: #FFF;
+  margin: 1rem 60rem 0rem 0rem;
+}
+
+.content-servicos p {
+  margin: 3rem 2rem;
 }
 
 .box-servicos {
@@ -253,7 +261,7 @@ footer p {
   border: 0.2rem solid #130f40;
   background: none;
   color: #130f40;
-  
+
 }
 
 
@@ -267,3 +275,90 @@ footer p {
   display: flex;
 }
 
+.box-produtos h3 {
+  font-size: 22px;
+  align-items: center;
+  display: flex;
+  justify-content: center;
+}
+
+.box-produtos span {
+  color: #130f40;
+  display: flex;
+  justify-content: center;
+}
+
+.produtos-titulo,
+.h3-produtos, .galeria-titulo {
+  font-size: 3rem;
+  font-family: "Rubik";
+  display: inline;
+}
+
+.content-titulo-produto, .content-galeria {
+  text-align: center;
+  margin-top: 3rem;
+}
+
+
+form {
+  width: 18rem;
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 5px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+label {
+  display: block;
+  margin-top: 10px;
+}
+
+input[type="text"],
+input[type="email"] {
+  width: 100%;
+  padding: 5px;
+  margin-top: 5px;
+}
+
+input[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+#contato {
+  display: flex;
+  margin: 8rem 0rem;
+}
+
+.component-bg-contato {
+  margin: 0;
+}
+
+#galeria .container  {
+  max-width: 50rem;
+  margin: 3rem 14rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 44px;
+  margin-bottom: 50px;
+}
+
+#galeria .container img{
+    display: block;
+    width: 100%;
+    transition: all 0.3 linear;
+}
+
+#galeria .container img:hover {
+    transform: scale(0.9);
+}
