@@ -4,3 +4,4 @@ https://bruno0m.github.io/site_meu_xodo/
     1º período do curso de Sistema de Informação - Semestre: 2023.1<br>
     Centro Universitário do Rio São Francisco - UniRios / Paulo Afonso - BA<br>
     Aluno(a): Bruno de Medeiros Rodrigues - Instagram: https://www.instagram.com/_bruno.medeiros/<p>
+    Instagram da Loja - https://www.instagram.com/meuxodopetshop.pa/
